@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Raw datasets
+data/raw/
+
+# Processed/generated datasets
+data/processed/
+
+# Large GIS datasets
+data/gis/panchayat/*.parquet
+data/gis/panchayat/*.geojson
+
+# Python model artifacts
+*.pth
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+.git_backup/

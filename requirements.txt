@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+torch
+numpy
+pandas
+scipy
+geopandas
+shapely
+pyproj
+pydantic
